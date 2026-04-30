@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+
+    <!-- 4 - external css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- 3 - internal css-->
+    <style>
+      h1 {
+        color: rgb(0, 238, 255);
+        font-size: 90px;
+      }
+      p {
+        /* color: gold; */
+        font-size: 40px;
+      }
+    </style>
+
+    <!-- <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/titles.css">-->
+  </head>
+  <body>
+    <!-- 1 inline css -->
+    <h1 style="color: blueviolet">Mudar cor com o inline</h1>
+    <h2>outro ttulo</h2>
+    <!-- 2 multiplas regras -->
+    <h1 style="color: red; font-size: 40px">Mudar cor e tamanho da fonte</h1>
+    <!-- 3 - internal css-->
+    <p>fui estilizado com CSS interno</p>
+    <p>Outro parágrafo estilizado</p>
+    <p>Terceiro parágrafo estilizado</p>
+
+    <!-- 4 - external css -->
+    <h3>Titulo estilizado com CSS externo</h3>
+
+    <!-- 5 - ordem do css -->
+    <p style="color: green">ordem do css</p>
+
+    <!-- 6 multiplos css-->
+
+    <!-- lista nao ordenada -->
+
+    <ul>
+      <li>banana</li>
+      <li>maçã</li>
+      <li>laranja</li>
+      <li>pera</li>
+      <li>abacate</li>
+    </ul>
+    <!-- 7 desafi-->
+    <h4>para ver a mudanca do css</h4>
+    <h4>de novo</h4>
+
+    <!-- 8 classes -->
+    <p class="paragrafo">rase io</p>
+    <p class="paragrafo">rase io4</p>
+    <p class="paragrafo">rase io6</p>
+
+    <!-- 9 id -->
+    <h1 id="titulo-exclusivo">titulo com id</h1>
+
+    <!-- 10 multiplas regras, ORDEM CSS -->
+
+    <h2 id="ALGUM-TITULO" class="CLASSSE">Titulo com multiplas regras</h2>
+    <h2 class="CLASSSE">Titulo com multiplas regras 2</h2>
+    <h2>Titulo com multiplas regras 3</h2>
+
+    <!-- 11 NOME DE COR -->
+    <p class="colorname">Exemplo de cor pelo nome</p>
+
+    <!-- cor pelo nome é apenas escrever o nome da cor -->
+
+    <!-- 12 hexadecimal-->
+    <!-- hexadecimal são as cores que começam com # -->
+    <p class="hex">alguma cor em hexadecimal</p>
+
+    <!-- 13 hexadecimal-->
+    <p class="hex2">Outro exemplo de cor em hexadecimal</p>
+    <p class="hex3">Mais um exemplo de cor em hexadecimal</p>
+    <p class="hex3">Mais um exemplo de cor em hexadecimal 6</p>
+
+    <!-- 14 RGB-->
+    <p class="rgb">Exemplo de cor em RGB</p>
+    <p class="rgb-mixado">Exemplo de cor em RGB mixada</p>
+
+    <!-- 15 RGBa-->
+    <!-- rgba é a cor rgb com opacidade que vai de 0 a 1 sendo 0 totalmente transparente e 1 totalmente opaco, ou seja, sem transparência -->
+    <p class="rgbA">Exemplo de cor em RGBa</p>
+    <p class="rgba2">Exemplo de cor em RGBa com opacidade</p>
+
+    <!-- 16 HSL -->
+    <p class="hsl">Exemplo de cor em HSL</p>
+    <p class="hsl-2">Outro exemplo de cor em HSL</p>
+
+    <!-- 17 BACKGROUND - COLOR -->
+    <p class="bg">Exemplo de cor de fundo</p>
+    <h2 class="bg-2">Exemplo de cor de fundo 2</h2>
+
+    <!-- 18 BACKGROUND - opacity -->
+    <div class="bg-opacity">
+      <p>Estou aqui</p>
+    </div>
+
+    <div class="opacity-2">
+      <p>Estou aqui quase visivel</p>
+    </div>
+
+    <!-- 19 rgb com opacidade -->
+    <div class="opacity-rgba">
+      <p>Somente com o fundo esmaecido</p>
+    </div>
+    <div class="fundotransparente">
+      <p>amo minha mulher</p>
+    </div>
+    <!-- 20 bg image -->
+    <h1 class="bg-image">ESTE TITULO TEM UMA IMAGEM</h1>
+
+    <!-- /* 21 centralizar bg image   -->
+
+    <div class="not-centralizada">com eexto</div>
+    <div class="centralizado"></div>
+
+    <!-- 22 height width -->
+
+    <div class="height-width">texto</div>
+    <div class="height">so altura</div>
+
+    <!-- 23 padding -->
+
+    <div class="com-padding">padding</div>
+    <div class="sem-padding">sem padding</div>
+
+    <!-- 24 padding individual -->
+    <p class="padding-individual">Este elemento tem paddings diferentes</p>
+
+    <!-- 25 shorthand padding -->
+    <p class="shorthand">algum texto</p>
+    <p class="shorthand-2">algum texto 2</p>
+
+    <!-- 26 paddimg com width -->
+
+    <!-- border box e quando temos um elemento com padding e width, ou seja, a largura do elemento é a largura do conteúdo mais o padding, ou seja, o padding é adicionado a largura -->
+    <!-- ai queremos que o padding seja incluido na largura do elemento, ou seja, a largura do elemento é a largura do conteúdo -->
+    <!-- para colocarmos a largura e ser a mesma, devemos usar a propriedade box-sizing: border-box -->
+    <div class="sem-borderbox">
+      <p>alguma coisa</p>
+    </div>
+    <div class="comborderbox">
+      <p>alguma coisa</p>
+    </div>
+    <!-- --------------------------------------------------------------------------------------------------------- -->
+
+    <!-- 27 - border -->
+    <div class="border">borda</div>
+    <div class="border-2">borda 2</div>
+  </body>
+</html>
