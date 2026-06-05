@@ -285,5 +285,98 @@ h2 {
   border-radius: 8px;
   width: 200px;
   height: 400px;
-  
+}
+
+.texto-alinhado {
+  text-align: right;
+}
+
+.conteiner-center {
+  text-align: center;
+  width: 300px;
+  border: 2px solid black;
+}
+
+/* text-decoration */
+.underline {
+  text-decoration: underline;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.remove-underline {
+  text-decoration: none;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.spacing {
+  letter-spacing: 15px;
+}
+.serif {
+  font-family: georgia;
+}
+.sans-serif {
+  font-family: helvetica;
+}
+.monospace {
+  font-family: monospace;
+}
+.cursive {
+  font-family: cursive;
+}
+.fantasy {
+  font-family: fantasy;
+}
+
+.italico {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+.fino {
+  font-weight: 100;
+}
+
+.medio {
+  font-weight: 600;
+}
+
+.grosso {
+  font-weight: 900;
+}
+
+.font {
+  font-family: Helvetica;
+}
+.small {
+  font-size: 10px;
+}
+
+.big {
+  font-size: 70px;
+}
+
+.inline {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  margin: 15px;
+  color: white;
+  display: inline-block;
+}
+.bloco {
+  display: block;
+}
+.invisivel {
+  display: none;
 }
